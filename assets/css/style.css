@@ -1,0 +1,22 @@
+body {
+    font-family: 'Lato', sans-serif; }
+
+.img-fluid {
+    width:100%;
+}
+
+.embed-responsive {
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.red {
+    color: red;
+}
+
+.ls-rules-page {
+    margin: 0 50; 
+}
