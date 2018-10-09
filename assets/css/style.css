@@ -3,58 +3,20 @@ body {
     margin: 0 100px;
 }
 
-.img-fluid {
-    width:100%;
-}
+    
+/* START OF RULES - all working - do not change this section */    
+    .rule-book-img {
+        margin-top: 25px;          
+        height: 150px;
+        width: 150px;
+        border-color: #818182;
+        border-style: solid;
+        border-radius: 15%;
+            
+        }
+    .centre-img-text {
+        text-align: center;
+        width: 150px;
+    } 
 
-.embed-responsive {
-    position: relative;
-    display: block;
-    height: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-.red {
-    color: red;
-}
-
-.word-page {
-    margin: 150 0; 
-    display: block;
-}
-
-.word-page h1 {
-    font-size: large; 
-    color: blue;
-}
-
-.block-divider {
-    background-color: blue;
-}
-
-.header {
-    margin-top: 0;
-    margin-bottom: 25px;
-}
-
-.header-title{
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    font-size: 150px;
-    color: #fff;
-    transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-}
-
-.header-text{
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    font-size: 25px;
-    color: #fff;
-    transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-}
-
+/* END OF RULES - all working - do not change this section */ 
