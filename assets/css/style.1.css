@@ -3,18 +3,23 @@ body {
     margin: 0 100px;
 }
 
-.img-fluid {
-    width:100%;
-}
+    
+/* START OF RULES - all working - do not change this section */    
+    .rule-book-img {
+        margin-top: 25px;          
+        height: 150px;
+        width: 150px;
+        border-color: #818182;
+        border-style: solid;
+        border-radius: 15%;
+            
+        }
+    .centre-img-text {
+        text-align: center;
+        width: 150px;
+    } 
 
-.embed-responsive {
-    position: relative;
-    display: block;
-    height: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
+/* END OF RULES - all working - do not change this section */ 
 
 
 

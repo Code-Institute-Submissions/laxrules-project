@@ -1,7 +1,10 @@
 body {
     font-family: 'Lato', sans-serif; 
-    margin: 0 100px;
+
+
 }
+
+
 
     
 /* START OF RULES - all working - do not change this section */    
@@ -20,3 +23,290 @@ body {
     } 
 
 /* END OF RULES - all working - do not change this section */ 
+
+
+
+
+/* START OF HEADER FOR HOME PAGE */  
+
+/* This is for small devices - there is a media query block for large devices */
+    .site-home-header-01 {
+       /* background:  url(/assets/images/cropped-umpires.jpg) center; 
+         */
+            background-color: black;
+            background-repeat: no-repeat;
+            background-size: cover;
+            max-height: 250px;
+            position: relative;
+            margin: 0;
+    }
+            
+    .header-bx {
+        margin: 25px 0;
+        border: #ffffff;
+        width: 100%;
+        height: auto;
+    }
+        
+        
+    .header-bx-blk {
+        background-color: black;
+        border: #ffffff;
+        border-style: groove;
+        border-width: medium;
+        width: 100%;
+        height: auto;
+    }
+    
+    
+    .header-title{
+        position: relative;
+        font-size: 26px;
+        text-align: center;
+        color: #fff;
+        margin: 5px 0;
+    }
+    
+    .header-text{
+        position: relative;
+        font-family: 'Kalam', cursive;
+        font-size: 18px;
+        text-align: center;
+        color: #fff;
+    }
+
+/* END OF HEADER FOR HOME PAGE */  
+
+
+/*  START OF SITE NAVBAR */
+    .bg-light {
+        background-color: white !important;
+        border: #343a4026;
+        border-style: ridge;
+        border-radius: 5px;
+    }
+    
+    .navbar-brand {
+        max-width: 100px    ;
+        max-height: 100px    ;
+
+
+    }
+    
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+        color: #f2f2f2; /*off-white*/
+    }
+    .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+        color: #ffc107; /*yellow*/
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #f8f9fa; /*light grey*/
+    }
+    
+    .nav a {
+        color:#f2f2f2; /*off-white*/
+        background-color: #000000; /*black*/
+        padding: 0.3rem 0.3rem;
+        height: auto;
+        width:100%;
+    }
+    
+    .nav-link {
+    color: #000000; /*black*/
+    background-color:  #fff; /* white*/
+    border-radius: 5px;
+            height: auto;
+        width:100%;
+        margin: 3px;
+    }
+
+/*  END OF SITE NAVBAR */
+
+
+
+/*  BACKGROUNDS */
+
+    .bkg-black {
+        background-color: #000000;
+        width: 100%;
+        height: auto;
+        
+    }
+
+
+
+
+/* This is for small devices - there is a media query block for large devices */   
+     .img-header {
+        position: relative;
+        padding: 5px;
+
+    }
+    
+/* This is for small devices - there is a media query block for large devices */
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+        border-color: #818182;
+        border-width: 5px;
+        border-style: groove;
+        padding: 5px;
+                
+                
+}
+
+/*  MEDIA QUERIES START - THESE APPLY WHEN SCREEN IS GREATER THAN OR EQUAL TO THE PX VALUE -  */    
+    @media only screen and (min-width: 992px) {
+        
+        .site-home-header-01 {
+            background: url(/assets/images/HeaderStripesBig.jpg) center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            max-height: 400px;
+            position: relative;
+            margin: 0;
+            padding: 35px;
+        }
+        
+            .site-home-header-02 {
+            background: url(/assets/images/cropped-umpires.jpg) center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            max-height: 400px;
+            position: relative;
+            margin: 0;
+            padding: 35px;
+        }
+        
+        
+        
+        .img-header {
+            
+            width: 100%;
+            height: auto;
+            box-shadow: 5px 5px 1px #e6e6e6;
+        }
+        
+        .header-bx {
+            width: 100%;
+            max-height: 300px;
+            margin: 25px 25px;
+        }      
+        
+
+        
+
+        
+        
+        
+        .header-title{
+            position: relative;
+            font-size: 100px;
+            color: #fff;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        
+        .header-text{
+            position: relative;
+            font-size: 20px;
+            color: #fff;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+    }
+    
+
+    
+ /*  MEDIA QUERIES END - THESE APPLY WHEN SCREEN IS GREATER THAN OR EQUAL TO THE PX VALUE -  */     
+    
+    
+    .site-pathway-background {
+        background-color: #818182; 
+        background-repeat:no-repeat;
+        background-size:cover;
+        height: 1000px;
+        position: relative;
+    }   
+
+/*  DETAILS  */    
+    .pathway-detail {
+        display: inline-block;
+        background-color: white;
+        margin:25px;
+        padding: 50px;
+        
+    }
+
+
+/*  IMAGES  */
+img {
+    vertical-align: middle;
+    
+
+    }
+   
+   
+   
+   
+   
+   
+   
+   
+/*  START OF RULES PAGES TESTING  */
+
+    .red {
+        color: red;
+    }
+    
+    .word-page {
+        margin: 150 0; 
+        display: block;
+    }
+    
+    .word-page h1 {
+        font-size: large; 
+        color: blue;
+    }
+    
+    .block-divider {
+        background-color: blue;
+    }
+    
+    .note-script{
+        position: relative;
+        font-family: 'Kalam', cursive;
+        color: #818182;
+
+    }
+
+/* START OF RULES - all working - do not change this section */    
+    .rule-book-img {
+        margin-top: 25px;          
+        height: 150px;
+        width: 150px;
+        border-color: #818182;
+        border-style: solid;
+        border-radius: 15%;
+            
+        }
+    .centre-img-text {
+        text-align: center;
+        width: 150px;
+    } 
+
+/* END OF RULES - all working - do not change this section */ 
+
+/*  CSS NOT YET USED BY A PAGE THAT I HAVE COMPLETED - THIS CODE WILL NOT BE PICKED UP UNTIL A PAGE USES IT
+
+.img-responsive {
+    width:100%;
+    height: 125px;
+    display: block;
+    
+}
+
+
+*/
