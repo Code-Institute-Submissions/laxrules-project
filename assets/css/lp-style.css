@@ -1,7 +1,10 @@
 body {
     font-family: 'Lato', sans-serif; 
-    margin: 0 100px;
+
+
 }
+
+
 
     
 /* START OF RULES - all working - do not change this section */    
@@ -24,83 +27,7 @@ body {
 
 
 
-/* START OF HEADER FOR HOME PAGE TESTING */  
-    .site-header {
-        background: url(/assets/images/zebra.png) center; 
-        background-repeat:no-repeat;
-        background-size:cover;
-        max-height: 300px;
-        position: relative;
-        margin-top: 50px;   
-        margin-bottom: 50px;   
-    }
-    
-
-            
-    .header-bx {
-        margin: 25px 0;
-        border: #ffffff;
-            width: 100%;
-    height: auto;
-
-
-        
-        }
-        
-        
-    .header-bx-blk {
-        background-color: black;
-        border: #ffffff;
-        border-style: groove;
-        border-width: medium;
-            width: 100%;
-    height: auto;
-
-            
-        }
-    
-    
-    .header-title{
-        position: relative;
-        font-size: 26px;
-        text-align: center;
-        color: #fff;
-        margin: 5px 0;
-    }
-    
-    .header-text{
-        position: relative;
-        font-size: 18px;
-        text-align: center;
-        color: #fff;
-
-
-    }
-
-
-
-
-
-/* END OF HEADER FOR HOME PAGE TESTING */  
-
-
-
-
-
-
-
-
-
-
-
-/*  BACKGROUNDS */
-
-    .bkg-black {
-        background-color: #000000;
-        width: 100%;
-        height: auto;
-        
-    }
+/* START OF HEADER FOR HOME PAGE */  
 
 /* This is for small devices - there is a media query block for large devices */
     .site-home-header-01 {
@@ -113,6 +40,100 @@ body {
             position: relative;
             margin: 0;
     }
+            
+    .header-bx {
+        margin: 25px 0;
+        border: #ffffff;
+        width: 100%;
+        height: auto;
+    }
+        
+        
+    .header-bx-blk {
+        background-color: black;
+        border: #ffffff;
+        border-style: groove;
+        border-width: medium;
+        width: 100%;
+        height: auto;
+    }
+    
+    
+    .header-title{
+        position: relative;
+        font-size: 26px;
+        text-align: center;
+        color: #fff;
+        margin: 5px 0;
+    }
+    
+    .header-text{
+        position: relative;
+        font-family: 'Kalam', cursive;
+        font-size: 18px;
+        text-align: center;
+        color: #fff;
+    }
+
+/* END OF HEADER FOR HOME PAGE */  
+
+
+/*  START OF SITE NAVBAR */
+    .bg-light {
+        background-color: white !important;
+        border: #343a4026;
+        border-style: ridge;
+        border-radius: 5px;
+    }
+    
+    .navbar-brand {
+        max-width: 100px    ;
+        max-height: 100px    ;
+
+
+    }
+    
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+        color: #f2f2f2; /*off-white*/
+    }
+    .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+        color: #ffc107; /*yellow*/
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #f8f9fa; /*light grey*/
+    }
+    
+    .nav a {
+        color:#f2f2f2; /*off-white*/
+        background-color: #000000; /*black*/
+        padding: 0.3rem 0.3rem;
+        height: auto;
+        width:100%;
+    }
+    
+    .nav-link {
+    color: #000000; /*black*/
+    background-color:  #fff; /* white*/
+    border-radius: 5px;
+            height: auto;
+        width:100%;
+        margin: 3px;
+    }
+
+/*  END OF SITE NAVBAR */
+
+
+
+/*  BACKGROUNDS */
+
+    .bkg-black {
+        background-color: #000000;
+        width: 100%;
+        height: auto;
+        
+    }
+
+
 
 
 /* This is for small devices - there is a media query block for large devices */   
@@ -129,7 +150,7 @@ body {
         border-color: #818182;
         border-width: 5px;
         border-style: groove;
-                padding: 5px;
+        padding: 5px;
                 
                 
 }
@@ -153,7 +174,6 @@ body {
             
             width: 100%;
             height: auto;
-
             box-shadow: 5px 5px 1px #e6e6e6;
         }
         
@@ -161,9 +181,6 @@ body {
             width: 100%;
             max-height: 300px;
             margin: 25px 25px;
-            
-
-            
         }      
         
 
@@ -187,9 +204,9 @@ body {
             margin-bottom: 10px;
             text-align: center;
         }
-        
-        
     }
+    
+
     
  /*  MEDIA QUERIES END - THESE APPLY WHEN SCREEN IS GREATER THAN OR EQUAL TO THE PX VALUE -  */     
     
@@ -217,7 +234,7 @@ img {
     vertical-align: middle;
     
 
-}
+    }
    
    
    
@@ -227,7 +244,7 @@ img {
    
    
 /*  START OF RULES PAGES TESTING  */
-/*
+
     .red {
         color: red;
     }
@@ -245,7 +262,14 @@ img {
     .block-divider {
         background-color: blue;
     }
-*/
+    
+    .note-script{
+        position: relative;
+        font-family: 'Kalam', cursive;
+        color: #818182;
+
+    }
+
 /*  START OF RULES PAGES TESTING  */
 
 /*  CSS NOT YET USED BY A PAGE THAT I HAVE COMPLETED - THIS CODE WILL NOT BE PICKED UP UNTIL A PAGE USES IT
