@@ -1,93 +1,86 @@
-body {
-    font-family: 'Lato', sans-serif; 
-}
-
-    .paragraph-top {
-        margin-top: 25px;
-
-}
-/* TABLE STYLING START  */
-
-    
-    .table-level-1 {
-        background-color:#99bbff; /* pale blue */
-        color: #002266;
+    body, html {
+        font-family: 'Lato', sans-serif; 
+        height:100%;
+        margin: 0;
+        background-color: #f2f2f2;    
     }
     
-    .table-level-2 {
-        background-color:#0055ff;  /* medium blue */
-        color: #f2f2f2;
+    h1, h2, h3, h4, h5, h6  {
+        color: #00235d;
+     }
+     
+
+    
+    
+    h2 {
+        font-size: 1.5rem;
     }
     
-    .table-level-3 {
-        background-color:#002266;  /* dark blue */
-        color: #f2f2f2;
+    .red {
+        color: red;
     }
-
-
     
     
-    
-    
-    
-/* START OF RULES - all working - do not change this section */    
-    .rule-book-img {
-        margin-top: 25px;          
-        height: 150px;
-        width: 150px;
-        border-color: #818182;
-        border-style: solid;
-        border-radius: 15%;
-            
-        }
-    .centre-img-text {
-        text-align: center;
-        width: 150px;
-    } 
-
-/* END OF RULES - all working - do not change this section */ 
-
-
-
-
-/* START OF HEADER FOR HOME PAGE */  
-
-/* This is for small devices - there is a media query block for large devices */
-    .site-home-header-01 {
-       /* background:  url(/assets/images/cropped-umpires.jpg) center; 
-         */
-            background-color: black;
-            background-repeat: no-repeat;
-            background-size: cover;
-            max-height: 250px;
-            position: relative;
-            margin: 0;
+/* Tutor notes and tips for officials (start) */    
+    .note-script {
+        position: relative;
+        font-family: 'Kalam', cursive;
+        font-size: 18px;
+        color: #474757;
     }
-            
-    .header-bx {
-        margin: 25px 0;
-        border: #ffffff;
-        width: 100%;
+    
+    .note-title {
+        margin-left: 10px;
+        color: #f8b043;
+        font-size: 2.5rem;
+    }
+    
+    .word-page {
+        margin: 30px 10px;
+        display: block;
+    }
+    
+    .note-box {
+        border-style: inset;
+        border-color: #00235d7a;
+        padding: 20px;
+        border-radius: 16px;
+        margin-top: 109px;
+        background-color: white;
+    }
+/* Tutor notes and tips for officials (end) */ 
+
+
+/* Header and footer size and background */
+    .header, .footer {
         height: auto;
+        width:100%;
+    
     }
+    
+    .header-bg, .footer-bg {
+        background: url(/assets/images/HeaderStripesBig.jpg) center;
+        background-repeat: no-repeat;
+        background-size: cover;
         
-        
-    .header-bx-blk {
+    }
+    
+    .container-dark {
+        display: block;
         background-color: black;
-        border: #ffffff;
-        border-style: groove;
-        border-width: medium;
-        width: 100%;
+        color: white;
+        width: 75%;
         height: auto;
+
     }
-    
     
     .header-title{
         position: relative;
-        font-size: 26px;
+        font-size: 50px;
         text-align: center;
         color: #fff;
-        margin: 5px 0;
+        margin: 10px 0;
+        padding-top: 25px;
     }
     
     .header-text{
@@ -97,227 +90,213 @@ body {
         text-align: center;
         color: #fff;
     }
-
-/* END OF HEADER FOR HOME PAGE */  
-
-
-/*  START OF SITE NAVBAR */
-    .bg-light {
-        background-color: white !important;
-        border: #343a4026;
-        border-style: ridge;
-        border-radius: 5px;
-    }
     
-    .navbar-brand {
-        max-width: 100px    ;
-        max-height: 100px    ;
-
-
-    }
     
-    nav .active a {
-        background-color: #ffc107;
-        color: #000000;
-    }
     
-    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-        color: #f2f2f2; /*off-white*/
-    }
-    .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-        color: #ffc107; /*yellow*/
-    }
-    .navbar-light .navbar-nav .nav-link {
-        color: #f8f9fa; /*light grey*/
-    }
     
-    .nav a {
-        color:#f2f2f2; /*off-white*/
-        background-color: #000000; /*black*/
-        padding: 0.3rem 0.3rem;
-        height: auto;
-        width:100%;
-    }
     
-    .nav-link {
-    color: #000000; /*black*/
-    background-color:  #fff; /* white*/
-    border-radius: 5px;
+ 
+/* MEDIA QUERIES - for devices larger than 768px (start) */ 
+ 
+    @media only screen and (min-width: 768px) 
+    {  
+        .hvr-sweep-to-bottom:before {
+            height: 20px;
+            background: rgba(255, 193, 7, 0.52);
+            }
+        
+        .container-dark {
+            display: block;
+            background-color: black;
+            color: white;
+            width: 100%;
             height: auto;
-        width:100%;
-        margin: 3px;
-    }
 
-/*  END OF SITE NAVBAR */
-
-
-
-/*  BACKGROUNDS */
-
-    .bkg-black {
-        background-color: #000000;
-        width: 100%;
-        height: auto;
-        
-    }
-
-
-
-
-/* This is for small devices - there is a media query block for large devices */   
-     .img-header {
-        position: relative;
-        padding: 5px;
-
-    }
-    
-/* This is for small devices - there is a media query block for large devices */
-    .img-fluid {
-        max-width: 100%;
-        height: auto;
-        border-color: #818182;
-        border-width: 5px;
-        border-style: groove;
-        padding: 5px;
-                
-                
-}
-
-/*  MEDIA QUERIES START - THESE APPLY WHEN SCREEN IS GREATER THAN OR EQUAL TO THE PX VALUE -  */    
-    @media only screen and (min-width: 992px) {
-        
-        .site-home-header-01 {
-            background: url(/assets/images/HeaderStripesBig.jpg) center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            width: 100%;
-            max-height: 400px;
-            position: relative;
-            margin: 0;
-            padding: 35px;
-        }
-        
-            .site-home-header-02 {
-            background: url(/assets/images/cropped-umpires.jpg) center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            width: 100%;
-            max-height: 400px;
-            position: relative;
-            margin: 0;
-            padding: 35px;
-        }
-        
-        
-        
-        .img-header {
+            }
             
-            width: 100%;
-            height: auto;
-            box-shadow: 5px 5px 1px #e6e6e6;
-        }
-        
-        .header-bx {
-            width: 100%;
-            max-height: 300px;
-            margin: 25px 25px;
-        }      
-        
-
-        
-
-        
-        
-        
         .header-title{
             position: relative;
-            font-size: 100px;
-            color: #fff;
-            margin-bottom: 10px;
+            font-size: 60px;
             text-align: center;
+            color: #fff;
+            margin: 5px 0;
         }
         
         .header-text{
             position: relative;
-            font-size: 20px;
-            color: #fff;
-            margin-bottom: 10px;
+            font-family: 'Kalam', cursive;
+            font-size: 25px;
             text-align: center;
+            color: #fff;
+            padding-bottom: 25px;
+            padding-top: 10px
         }
+                
+    }
+    
+/* MEDIA QUERIES - for devices larger than 768px (end) */     
+
+/* ICONS (start)  */
+/* footer */
+    .fab, .fas {
+        font-size: 3.0em;
+        color: #f2f2f2; 
+        padding:    5px;
+    }
+    .fab:hover, .fas:hover, .far:hover {
+        color: #fba945; 
+    }
+    .far {
+        font-size: 0.75em;
+        color: #f2f2f2; 
+        padding:    5px;
+    }
+    
+    .fab-dark, .fas-dark {
+        font-size: 3.0em;
+        color: #00235d; 
+        padding:    5px;
+    }
+
+    .far.dark {
+        font-size: 0.75em;
+        color: #00235d; 
+        padding:    5px;
+    }
+/* ICONS (end)  */    
+    
+    
+    
+/* FOOTER (start) */
+    .footer-link {
+        color:#f2f2f2;
+    }    
+    .footer-link:hover {
+        color:#fba945;
+    }    
+/* FOOTER (end) */    
+   
+    
+/* HEADER (start) */
+    .logo {
+        background: url("/assets/images/zebra.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 360px;
+        transform-origin: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -webkit-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
     }
     
 
     
- /*  MEDIA QUERIES END - THESE APPLY WHEN SCREEN IS GREATER THAN OR EQUAL TO THE PX VALUE -  */     
-    
-    
-    .site-pathway-background {
-        background-color: #818182; 
-        background-repeat:no-repeat;
-        background-size:cover;
-        height: 1000px;
-        position: relative;
-    }   
+/* HEADER (end) */
 
-/*  DETAILS  */    
-    .pathway-detail {
-        display: inline-block;
-        background-color: white;
-        margin:25px;
-        padding: 50px;
-        
+
+
+/* NAVBAR - NB list items here also (start) */
+    ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
     }
 
-
-/*  IMAGES  */
-img {
-    vertical-align: middle;
-    
-
-    }
-   
-   
-   
-   
-   
-   
-   
-   
-/*  START OF RULES PAGES TESTING  */
-
-    .red {
-        color: red;
-    }
-    
-    .word-page {
-        margin: 150 0; 
+    li a {
         display: block;
+        float: left;
+        width: 160px;
+        text-decoration: none;
+        color: #ffffff;
+        text-align: center;
+        margin: 0px;
     }
     
-    .word-page h1 {
-        font-size: large; 
-        color: blue;
+    #nav {
+        margin: 0;
+    }
+    
+    .hvr-sweep-to-bottom:before {
+        height: 30px;
+        background: rgba(255, 193, 7, 0.52);
+    }
+    
+    .bg-light {
+        background-color: rgb(248, 176, 67)!important;
+    }
+    
+    .nav-link {
+        padding: 0.2rem 1rem;
+    }
+    
+    .navbar-toggler {
+            margin-right: 20px;
+    }
+    
+    .nav-item{
+        display: flex;
+        justify-content: center;
+        border-style: groove;
+        border-width: 1px;
+        border-color: rgba(255, 193, 7, 0.52);
+        border-radius: 5px;   
+        text-transform: uppercase;
+    }
+    
+    .navbar-light .navbar-nav .nav-link {
+        color: #000000;
+    }
+    
+    
+    .dropdown-item:focus, .dropdown-item:hover {
+        color: #16181b;
+        text-decoration: none;
+        background-color: rgba(248, 176, 67, 0.65);
+}
+
+/* NAVBAR - NB list items here (end) */
+
+
+
+
+
+
+/* BACKGROUNDS (start) */
+
+
+    .bkg-col-light {
+        background-color: #8181821f;
+    }
+    
+    .bkg-col-mid {
+        background-color: rgba(255, 193, 7, 0.1);;
     }
     
     .block-divider {
-        background-color: blue;
-    }
-    
-    .note-script{
-        position: relative;
-        font-family: 'Kalam', cursive;
-        color: #818182;
-
+        background: rgba(255, 193, 7, 1);
     }
 
-/* START OF RULES - all working - do not change this section */    
+/* BACKGROUNDS (end) */
+
+
+/* IMAGES (start) */
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    margin: 15px;
+  
+}
+
     .rule-book-img {
         margin-top: 25px;          
         height: 150px;
         width: 150px;
         border-color: #818182;
-        border-style: solid;
-        border-radius: 15%;
+        border-radius: 5px;
+        border-style: inset;
+
             
         }
     .centre-img-text {
@@ -325,16 +304,5 @@ img {
         width: 150px;
     } 
 
-/* END OF RULES - all working - do not change this section */ 
 
-/*  CSS NOT YET USED BY A PAGE THAT I HAVE COMPLETED - THIS CODE WILL NOT BE PICKED UP UNTIL A PAGE USES IT
-
-.img-responsive {
-    width:100%;
-    height: 125px;
-    display: block;
-    
-}
-
-
-*/
+/* IMAGES (end) */
