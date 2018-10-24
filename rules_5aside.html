@@ -10,22 +10,20 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link rel="shortcut icon" href="/assets/images/zebra.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/assets/images/zebra.png" type="image/png" />
     <title>laxrules</title>
 </head>
 <body>
-<!-- HEADER START -->       
+<!-- HEADER START -->    
     <div class="container-fluid header header-bg">
         <div class="row">
 
            <div class="col-sm-12 col-md-3 d-flex justify-content-center align-items-center">       
-                <!-- 
-                            <div class="col-sm-12 col-md-3  ">
-                -->
-                
                 <img src="/assets/images/zebra.png" class="img-fluid" alt="Zebra image"></img>
             </div>
-            <div class="col-sm-12 col-md-9 ">
-                <div class="container-dark center">
+            <div class="col-sm-12 col-md-9 d-flex justify-content-center align-items-center ">
+                <div class="container-dark container-fluid ">
                     <h1 class="header-title">Laxrules</h1>
                     <p class="header-text">lacrosse officiating info at your fingertips</p>
                 </div>
@@ -34,7 +32,7 @@
         </div>
     </div>
 <!-- HEADER END -->    
-<!-- NAVBAR START -->      
+<!-- NAVBAR START -->
     <nav class="navbar navbar-expand-md navbar-light bg-light">
          	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         		<span class="navbar-toggler-icon"></span>
@@ -54,23 +52,22 @@
         			</li>
         			
         			<li class="nav-item hvr-sweep-to-bottom">
-        				<a class="nav-link" href="/pathway_umpire.html" >Training</a>
+        				<a class="nav-link" href="/umpire-register.html" >Umpire Register</a>
         			</li>
-        <!-- Keep so that I can add in training dropdown                         
-                    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Training</a>
+        			        			<li class="nav-item hvr-sweep-to-bottom">
+        				<a class="nav-link" href="/game-clips.html" >Armchair Ump</a>
+        			</li>
+              <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle hvr-sweep-to-bottom active" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Rules</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                          <a class="dropdown-item" href="#">Major & Minor Fouls</a>                                          
-                    	  <a class="dropdown-item" href="#">3 second rule</a>
-                          <a class="dropdown-item" href="#">Shooting space</a>
+                          <a class="dropdown-item hvr-sweep-to-bottom " href="/rules.html">Rules</a>                                          
+                    	  <a class="dropdown-item" hvr-sweep-to-bottom " href="/rules_5aside.html">Indoor (W)</a>
+                          <a class="dropdown-item" hvr-sweep-to-bottom " href="/rules_8aside.html">8 aside (W)</a>
                         </div>
-                    </li>
-        -->   			
-        			   <li class="nav-item hvr-sweep-to-bottom active">
-        				<a class="nav-link" href="/rules.html" >Rules</a> 
-        			  </li>                               
+              </li>			
+                             
                                         
-        			<li class="nav-item hvr-sweep-to-bottom">
+        			<li class="nav-item hvr-sweep-to-bottom ">
         				<a class="nav-link" href="/contact-us.html" >Contact Us</a>
         			</li>                                
         
@@ -78,7 +75,9 @@
         
                 </ul>
         	</div>
-        	
+        	<a class="ls-logo-overlay " href="http://www.lacrossescotland.com/" target="_blank">
+                <img src="/assets/images/Logo_LS.png" class="img-ls-logo" alt="Lacrosse Scotland logo image" width="75px" height="75px" align-right >
+            </a>
 
         </nav>
 <!-- NAVBAR END -->   
@@ -87,7 +86,7 @@
         <div class="row">
             <div class="col-md-8 bkg-col-mid">
                <div class="word-page">
-                <h1>Indoor Rules - Women / Mixed</h1>
+                <h1 class="paragraph-top">Indoor Rules - Women / Mixed</h1>
                 </div>
                         <div class="word-page">
                            <p>FIL Rules will be used with the following modification:</p>
@@ -151,14 +150,14 @@
                 
             </div>
             <div class="col-md-4 bkg-col-mid">
-                <div class="note-box">
+                <div class="note-container note-box">
                     <div class="text-center">
 			        <a href="/assets/documents/5 a-side rules.pdf" target="_blank" rel="noopener">
 			            <i class="fas-dark fas fa-file-download"></i>
 				    Printable PDF version</a>
 			    </div>
                 </div>
-                <div class="word-page note-box">
+                <div class="word-page note-container note-box">
                     <p class="note-title">Tips for officials</p>
                     <div class="note-script">
                         <ol>
@@ -218,7 +217,8 @@
             </div>
         </div>
     </div>   
-<!-- FOOTER END -->     
+<!-- FOOTER END --> 
+    
 <!-- These scripts are needed for the navbar-->     
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
