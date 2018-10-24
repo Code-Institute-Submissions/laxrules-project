@@ -34,28 +34,26 @@ The longer term business goals for LAXRULES are:
 
 UX
 =
-
+Easy to find pages with option of click from home screen or top navigation menu. Responsive pages. Compatible with common browsers.
 - - - -
 FEATURES
 =
+View only site - no updating possible. Dropdown menu. 3 column site - apart  home page -  allowing for margins to be used for help notes (for example). Responsive table for register of officials.
 
-Existing features
--
-
-
-
-
-
-Features left to implement
--
 
 
 
 - - - -
 TECHNOLOGIES USED
 =
+Bootstrap framework
+CSS3
+HTML5
+Javascript
 
-
+Also used:
+Fontawesome icons
+Google fonts - Lato (main text) and Kalam (note text) 
 
 
 
@@ -65,6 +63,13 @@ TECHNOLOGIES USED
 
 TESTING
 =
+Responsive behaviour - all pages tested and elements within e.g. table, videos
+Browser compatibility - Chrome, Firefox, Edge, Safari tested
+Links - check that all links work - header, footer, navigation bar and page contents
+Navigation bar - check that active page is identifiable. hover action works
+
+
+
 
 
 - - - -
