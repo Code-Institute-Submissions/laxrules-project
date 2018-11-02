@@ -34,28 +34,26 @@
         color: #474757;
     }
     
+    .note-script i {
+        float: left;
+    }    
     .note-title {
         margin-left: 10px;
         color: #f8b043;
         font-size: 2.5rem;
     }
     
-
-    
-    
-    .note-script i {
-        float: left;
-    }
     .word-page {
-        margin: 30px 10px;
+        border-color: #ffffff;
         display: block;
-    }
-    
-    .note-box {
+        background-color: rgba(248, 176, 67, 0.33);
+        border-width: 2px;
+        border-style: solid;
+        border-radius: 15px;
+        padding: 0px 0px 0px 20px;
+        }
+        
 
-        margin-top: 109px;
-        background-color: white;
-    }
     
 
 
@@ -116,6 +114,14 @@
         background-color: #faffd0;
     
     }
+    
+
+    .img-notepad {
+    background: url(/assets/images/Notepad-rpt.png);
+    background-repeat: repeat-y;
+    background-size: contain;
+    margin-left: 8px;
+}
     
     
     
@@ -260,35 +266,13 @@
 /* BACKGROUNDS (start) */
 
 
-    .bkg-col-light {
-        background-color: #8181821f;
-    }
-    
     .bkg-col-mid {
         background-color: rgba(248, 176, 67, .2);
     }
-    
-/* TEST COLOURS - START */    
-    .bkg-col-y {
-        background-color: yellow;
-    }
-    
-    .bkg-col-r {
-        background-color: red;
-    }
-    
-    .bkg-col-g {
-        background-color: grey;
-    }
-    
-    .bkg-col-b {
-        background-color: blue;
-    }
-    
-/* TEST COLOURS - END */        
+  
     
     .block-divider {
-        background: rgba(255, 193, 7, 1);
+        background: #dd8808;
     }
     
     .block-divider--dashed {
@@ -297,6 +281,14 @@
         border-width: 2px;
         width: 75%;
     }
+    
+   .block-divider--dashed {
+        border-bottom-color:  #000000;
+        border-style: dashed;
+        border-width: 2px;
+        width: 75%;
+    }
+
 
 /* BACKGROUNDS (end) */
 
@@ -347,8 +339,6 @@
     } 
     
     .img-fluid {
-        max-width: 100%;
-        height: auto;
         border-color: #818182;
         border-width: 5px;
         border-style: ridge;
@@ -357,6 +347,14 @@
         margin: 0 10px;
     }
 
+    .img-field {
+        border-color: #818182;
+        border-width: 5px;
+        border-style: ridge;
+        border-radius: .25rem;
+        padding: 10px;
+        margin: 25px 0px;
+    }
 
 /* IMAGES (end) */
 
@@ -383,11 +381,13 @@
 
     .container-fluid {
         width: 100%;
-        padding-right: 0;
-        padding-left: 0;
+    /*    padding-right: 0;
+        padding-left: 0; */
         margin-right: auto;
         margin-left: auto;
     }
+    
+
         
     .form-container {
         border-style: solid;
@@ -485,7 +485,8 @@
         background-color: white;
         margin: 19px;
 
-    }  
+    } 
+   
     
     .note-script span {
         float: right;
@@ -561,9 +562,9 @@
     }
     
     .table-bordered {
-        border-width: 3px;
-        border-style: ridge;
-        border-color: red;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #b2b2b2;
         
     }
     
@@ -586,6 +587,10 @@
         width:55%;
         height: auto;
         margin: auto ;
+    }
+    
+    .passed-date {
+        display: none;
     }
 
 
@@ -699,6 +704,8 @@
             display: block;
         } 
     
+    
+    
         .lx-text {
             font-size: 1.5rem;
         }   
@@ -750,19 +757,45 @@
             margin: auto;
         }
                 
+
         .note-container {
             border-style: solid;
             border-color: #818182;
             border-radius: 15px;
             background-color: white;
-            margin: 0px 19px;
-        }      
+            margin: 25px 0px;
+            width: 95%;
+            height: auto;
+        }
         
         .note-script span {
             float: right;
             width: 89%;
         }
-    
+
+        
+        .img-notepad {
+            background: url("/assets/images/Notepad-rpt.png");
+            background-repeat: repeat-y;
+            background-size: contain;
+        }        
+        
+        .word-page {
+            border-color: #ffffff;
+            margin: 25px 40px;
+            display: block;
+            background-color: rgba(248, 176, 67, 0.33);
+            border-width: 2px;
+            border-style: solid;
+            border-radius: 15px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+        
+        
+        
         .video-note {
             border-style: solid;
             border-color: #818182;
@@ -770,9 +803,11 @@
             background-color: white;
             margin: 0px ;
             } 
+            
+
     
         .rule-note-container {
-            margin-bottom: 57px;
+            margin-bottom: 36px;
             /*padding-bottom: 25px; */
             max-height: 160px;
         }        
@@ -787,11 +822,7 @@
             height: auto;
             }
         
-        .table-responsive > .table-bordered {
-            border-width: 3px;
-            border-style: solid;
-            border-color: #818182;
-            }
+     
             
         .space {
             padding: 15px 55px;
@@ -803,7 +834,7 @@
 
 
 /* MEDIA QUERIES - for devices larger than min-width (start) */ 
- @media only screen and (min-width: 1140px) 
+ @media only screen and (min-width: 992px) 
     {  
         .rule-book-img {
             margin-top: 25px;          
@@ -815,11 +846,29 @@
             display: block;
         } 
         
-
+        .img-notepad {
+            background: url("/assets/images/Notepad-rpt.png");
+            background-repeat: repeat-y;
+            background-size: contain;
+        }        
+        
+        .word-page {
+            border-color: #ffffff;
+            margin: 25px 100px;
+            display: block;
+            background-color: rgba(248, 176, 67, 0.33);
+            border-width: 2px;
+            border-style: solid;
+            border-radius: 15px;
+            padding: 5px 25px;
+        }
         
         .lx-text {
             font-size: 1.5rem;
-        }        
+        }    
+
+        .passed-date {
+            display: table-cell;       }       
         
     }    
         
