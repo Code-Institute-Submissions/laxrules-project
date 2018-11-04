@@ -117,10 +117,10 @@
     
 
     .img-notepad {
-    background: url(../images/Notepad-rpt.png);
-    background-repeat: repeat-y;
-    background-size: contain;
-    margin-left: 8px;
+        background: url(../images/Notepad-rpt.png);
+        background-repeat: repeat-y;
+        background-size: contain;
+        margin-left: 8px;
 }
     
     
@@ -775,7 +775,7 @@
 
         
         .img-notepad {
-            background: url("assets/images/Notepad-rpt.png");
+            background: url(../images/Notepad-rpt.png);
             background-repeat: repeat-y;
             background-size: contain;
         }        
@@ -847,7 +847,7 @@
         } 
         
         .img-notepad {
-            background: url("assets/images/Notepad-rpt.png");
+            background: url(../images/Notepad-rpt.png);
             background-repeat: repeat-y;
             background-size: contain;
         }        
