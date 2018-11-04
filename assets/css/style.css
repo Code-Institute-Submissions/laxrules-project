@@ -63,7 +63,7 @@
 /* Header and footer size and backgrounds */
 
     .header-bg, .footer-bg {
-        background: url(assets/images/HeaderStripesBig.jpg) center;
+        background: url(../images/HeaderStripesBig.jpg) center;
         background-repeat: no-repeat;
         background-size: cover;
         
@@ -72,13 +72,13 @@
         
 
     .umpire-header-bg {
-        background: url("../images/cropped-umpires.jpg);
+        background: url(../images/cropped-umpires.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
     
     .rule-header-bg {
-        background: url("assets/images/grass_slider-1.jpg");
+        background: url(../images/grass_slider-1.jpg");
         background-repeat: no-repeat;
         background-size: cover;
     }
