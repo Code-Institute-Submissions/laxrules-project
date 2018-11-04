@@ -63,7 +63,7 @@
 /* Header and footer size and backgrounds */
 
     .header-bg, .footer-bg {
-        background: url(/assets/images/HeaderStripesBig.jpg) center;
+        background: url(assets/images/HeaderStripesBig.jpg) center;
         background-repeat: no-repeat;
         background-size: cover;
         
@@ -72,13 +72,13 @@
         
 
     .umpire-header-bg {
-        background: url("/assets/images/cropped-umpires.jpg");
+        background: url("assets/images/cropped-umpires.jpg");
         background-repeat: no-repeat;
         background-size: cover;
     }
     
     .rule-header-bg {
-        background: url("/assets/images/grass_slider-1.jpg");
+        background: url("assets/images/grass_slider-1.jpg");
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -176,7 +176,7 @@
     
 /* HEADER (start) */
     .logo {
-        background: url("/assets/images/zebra.png");
+        background: url("assets/images/zebra.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -775,7 +775,7 @@
 
         
         .img-notepad {
-            background: url("/assets/images/Notepad-rpt.png");
+            background: url("assets/images/Notepad-rpt.png");
             background-repeat: repeat-y;
             background-size: contain;
         }        
@@ -847,7 +847,7 @@
         } 
         
         .img-notepad {
-            background: url("/assets/images/Notepad-rpt.png");
+            background: url("assets/images/Notepad-rpt.png");
             background-repeat: repeat-y;
             background-size: contain;
         }        
