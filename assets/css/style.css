@@ -72,7 +72,7 @@
         
 
     .umpire-header-bg {
-        background: url("assets/images/cropped-umpires.jpg");
+        background: url("../images/cropped-umpires.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
