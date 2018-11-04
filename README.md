@@ -81,14 +81,6 @@ TESTING
 
 - - - -
 
-DEPLOYMENT
-=
-
-
-
-
-- - - -
-
 CREDITS
 =
 
@@ -96,10 +88,5 @@ CREDITS
 Media
 -
 YouTube videos of lacrosse snippets created by US Lacrosse / their members
-
-
-
-Acknowledgements
--
 
 
