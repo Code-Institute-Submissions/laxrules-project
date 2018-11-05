@@ -110,11 +110,6 @@
         color: #fff;
     }
     
-    .home-section     {
-        background-color: #faffd0;
-    
-    }
-    
 
     .img-notepad {
         background: url(../images/Notepad-rpt.png);
@@ -209,7 +204,7 @@
 
     .hvr-sweep-to-bottom:before {
        height: 32px;
-       background: rgba(0, 123, 255, 0.45);
+       background: rgba(250, 168, 45, .5);
     }
 
     
@@ -224,6 +219,18 @@
     .navbar-toggler {
             margin-right: 20px;
     }
+    
+    .navbar-light .navbar-toggler {
+        color: rgb(254, 222, 140);
+        border-color: rgb(254, 222, 140);
+        border-width: 2px;
+    }
+    
+    button:focus {
+        outline-color: #db7f0e;
+        outline-style: auto;
+        outline-width: 5px;
+}
     
     .nav-item {
     
@@ -252,8 +259,9 @@
         background-color: rgba(248, 176, 67, 0.7);
     }
 
+
     .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-        color: #007bff;
+    color: #ffffff;
     }
 
 /* NAVBAR - NB list items here (end) */
