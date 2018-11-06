@@ -176,10 +176,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         min-height: 360px;
-        transform-origin: all .5s ease-in-out;
-        -moz-transition: all .5s ease-in-out;
-        -webkit-transition: all .5s ease-in-out;
-        -o-transition: all .5s ease-in-out;
+
     }
     
 
@@ -369,13 +366,7 @@
 /* IMAGES (end) */
 
 /*BUTTONS(start) */
-    .btn-lx-light {
-        color: #fff;
-        background-color: #007bff;
-        border-color: #007bff;
-        /* margin: -15px 0px; */
-        /* float: right; */
-    }
+
     
     .btn-lx-dark {
         color: #000000;
@@ -566,8 +557,7 @@
     thead {
         background-color: #818182;
         color: #ffffff;
-        border-color: #818182;
-        border-style: solid;
+
     }
     
     .table-bordered {

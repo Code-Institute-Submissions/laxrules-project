@@ -32,6 +32,7 @@ The longer term goals for LAXRULES are:
 
 UX
 =
+This is a reference site so it is important that users can find information easily without having to click into too many layers of menu. 
 <ul style="list-style-type:none">
 <li>Easy to find pages with option of click from home screen or top navigation menu. </li><li>Responsive pages - can be used on different devices.</li> <li>Compatible with common browsers.</li>
 </ul>
@@ -39,6 +40,7 @@ UX
 
 FEATURES
 =
+This site will be extended to include referees and more hints and tips relating to the rules and how to administer the fouls. At the moment it will focus more on umpiring as this is what is needed more. 
 <ul style="list-style-type:none">
 <li>View only site - no updating possible. </li><li>Dropdown menu.<li></li> 3 column site - apart  from home page -  allowing for margins to be used for help notes (for example). <li></li>Responsive table for register of officials.</li>
 </ul>
@@ -69,15 +71,27 @@ Also used:
 
 TESTING
 =
+Testing information is in the project-docs folder. 
+
+The contact form could only be tested based on present or missing required fields as no code sits behind the send button. All links were tested and the HTML and CSS were run through W3C validators.
+
+A sample of what has been tested : 
 <ul style="list-style-type:none">
-<li>Responsive behaviour - all pages tested and elements within e.g. table, videos</li>
+<li>Responsive behaviour - all pages tested and elements within e.g. table, videos. Breakpoints checked</li>
 <li>Browser compatibility - Chrome, Firefox, Edge, Safari tested</li>
 <li>Links - check that all links work - header, footer, navigation bar and page content</li>
-<li>Navigation bar - check that active page is identifiable. Hover action works</li>
+<li>Navigation bar<li> - check that active page is identifiable & that the hover action works.</li> </li>
 </ul>
 
 
 
+- - - - 
+DEPLOYMENT
+==
+Deployed code is hosting on Github https://murdell.github.io/laxrules-project/
+Local code is on Cloud9
+
+Currently the local code and the deployed code are in line and there is only a MASTER branch being used in Github.
 
 - - - -
 
