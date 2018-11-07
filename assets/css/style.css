@@ -63,7 +63,7 @@
 /* Header and footer size and backgrounds */
 
     .header-bg, .footer-bg {
-        background: url(../images/HeaderStripesBig.jpg) center;
+        background: url(../images/header_stripes_big.jpg) center;
         background-repeat: no-repeat;
         background-size: cover;
         
@@ -78,11 +78,17 @@
     }
     
     .rule-header-bg {
-        background: url(../images/grass_slider-1.jpg);
+        background: url(../images/grass_line.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
     
+    .container-fluid {
+        width: 100%;
+        padding: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
 
     .container-dark {
         display: block;
@@ -112,7 +118,7 @@
     
 
     .img-notepad {
-        background: url(../images/Notepad-rpt.png);
+        background: url(../images/notepad_image.png);
         background-repeat: repeat-y;
         background-size: contain;
         margin-left: 8px;
@@ -350,8 +356,7 @@
         border-width: 5px;
         border-style: ridge;
         border-radius: .25rem;
-        padding: 10px;
-        margin: 0 10px;
+        margin: 10px auto;
     }
 
     .img-field {
@@ -362,8 +367,20 @@
         padding: 10px;
         margin: 25px 0px;
     }
+    
+    .video-frame {
+        height: 240px;
+    }
 
 /* IMAGES (end) */
+
+    .embed-responsive {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        padding: 0;
+        overflow: hidden;
+    }
 
 /*BUTTONS(start) */
 
@@ -380,15 +397,6 @@
 
 /* CONTAINERS (start) */
 
-    .container-fluid {
-        width: 100%;
-        margin-right: auto;
-        margin-left: auto;
-        padding: 0px;
-    }
-    
-
-        
     .form-container {
         border-style: solid;
         border-color: #f8b043;
@@ -433,50 +441,6 @@
         vertical-align: middle;
     }
 
-    .pathway-container-outer {
-        background-color: #f8b043;
-        border-style: solid;
-        border-width: 1px;
-        width: 100%;
-        height: auto;
-        border-radius: 5px;
-        margin: auto;
-    }
-    
-    .pathway-container-inner-box {
-        background-color: #ffffff;
-        border-style: solid;
-        border-width: 1px;
-        width: 100%;
-        height: auto;
-        border-radius: 5px;
-        margin: auto;
-    }
-    
-    .pathway-container-inner {
-        width: 90%;
-        min-height: 75px;
-        padding-bottom: 5px;
-        text-align: center!important;
-        margin: 10px auto;
-        padding-top: 15px;
-    }
-
-
-
-    .pathway-container-inner-btm {
-        border-style: solid;
-        border-width: 1px;
-        height: auto;
-        padding-bottom: 5px;
-        border-top: none;
-        border-left: none;
-        border-right: none;
-        border-bottom-color: #000000;
-        border-bottom-width: 26px;
-        vertical-align: middle;
-        border-radius: 5px;
-    }
     
     .note-container {
         border-style: solid;
@@ -487,12 +451,12 @@
 
     } 
    
-    
+/*
     .note-script span {
         float: right;
         width: 80%;
     }
-        
+*/        
     .rule-note-container {
         border-style: solid;
         border-color: #818182;
@@ -508,20 +472,17 @@
         padding: 35px;
         background-color: rgba(248, 176, 67, .4);
         border-radius: 15px;
-        max-width: 100%;
-        height: auto;
-    }
+        }
     
     .video-box {
-        display: inline-flex;
         align-self: center!important;
         justify-content: space-between!important;
         width: 100%;
         height: auto;
-        margin:    0px 5px;
+        margin-top: 10px;
     }
     
-    .video-note {
+    .hint-note-container {
         border-style: solid;
         border-color: #818182;
         border-radius: 15px;
@@ -543,9 +504,7 @@
     
 
 
-    .btn-right {
-        float:right;
-    }
+
 
     .space {
         padding: 0px 0px;
@@ -554,10 +513,13 @@
 
 
 /* TABLE STYLING START  */
+    .table {
+        font-size: 0.85rem;
+    }
+
     thead {
         background-color: #818182;
         color: #ffffff;
-
     }
     
     .table-bordered {
@@ -623,6 +585,13 @@
         display: flex
     }
 
+
+    audio {
+        width: 98%;
+        height: 54px;
+        margin: 5px 0px;
+
+    } 
 
 
 
@@ -729,49 +698,7 @@
             margin: auto;
             min-height: 240px;
         }
-            
-        .pathway-container-outer {
-            background-color: #f8b043;
-            border-style: solid;
-            border-width: 1px;
-            width: 100%;
-            height: auto;
-            display: flex;
-            border-radius: 5px;
-            margin: auto;
-            padding-top: 10px;
-        }
-        
-        .pathway-container-inner-box {
-            background-color: #818182;
-            border-top: none;
-            border-left: none;
-            border-right: none;
-            border-bottom-color: #000000;
-            border-bottom-width: 26px;
-            width: 100%;
-            height: auto;
-            border-radius: 5px;
-            margin: auto;
-        }
-    
-        .pathway-container-inner {
-            width: 90%;
-            min-height: 75px;
-            padding-bottom:  5px;
-            text-align: center!important;
-            margin: auto;
-        }
-    
-        .pathway-container-inner-btm {
-            height: auto;
-            padding-bottom: 5px;
-            vertical-align: middle;
-            text-align: center;
-            border: none;
-            margin: auto;
-        }
-                
+ 
 
         .note-container {
             border-style: solid;
@@ -782,15 +709,15 @@
             width: 95%;
             height: auto;
         }
-        
+/*
         .note-script span {
             float: right;
             width: 89%;
         }
-
+*/
         
         .img-notepad {
-            background: url(../images/Notepad-rpt.png);
+            background: url(../images/notepad_image.png);
             background-repeat: repeat-y;
             background-size: contain;
         }        
@@ -811,7 +738,7 @@
         
         
         
-        .video-note {
+        .hint-note-container {
             border-style: solid;
             border-color: #818182;
             border-radius: 15px;
@@ -823,8 +750,6 @@
     
         .rule-note-container {
             margin-bottom: 36px;
-            /*padding-bottom: 25px; */
-            max-height: 160px;
         }        
             
         .rule-container {
@@ -837,14 +762,13 @@
             height: auto;
             }
         
-     
+
             
         .space {
             padding: 15px 55px;
         }
+        
     
-
-            
     }     
 
 /* MEDIA QUERIES - for devices larger than min-width (end) */     
@@ -864,7 +788,7 @@
         } 
         
         .img-notepad {
-            background: url(../images/Notepad-rpt.png);
+            background: url(../images/notepad_image.png);
             background-repeat: repeat-y;
             background-size: contain;
         }        
@@ -885,7 +809,19 @@
         }    
 
         .passed-date {
-            display: table-cell;       }       
+            display: table-cell;       
+            
+        }    
+            
+        .embed-responsive {
+            position: relative;
+            display: inline-block;
+            width: 32.9%;
+            padding: 0;
+            overflow: hidden;
+        }
+                
+            
         
     }    
     
